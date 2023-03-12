@@ -1,0 +1,57 @@
+.formContainer{
+    background-color: rgb(82, 219, 182);
+    height:100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.formWrapper{
+    background-color: white;
+    padding: 20px ;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.logo{
+    color:rgb(99, 141, 173);
+    font-weight: bolder;
+    font-size:24px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.title{
+    color:rgb(99, 141, 173);
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+input{
+    padding: 15px;
+        border: none;
+        width: 250px;
+        border-bottom: 1.5px solid rgb(99, 141, 173);
+        }
+        
+input::placeholder {
+          color: rgb(99, 141, 173);
+        }
+        button{
+            background-color: aquamarine;
+            color: white;
+            padding: 10px;
+            font-weight:bold ;
+            border:none;
+            cursor: pointer;
+        }
+        p{
+            color:darkgreen;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    
+
